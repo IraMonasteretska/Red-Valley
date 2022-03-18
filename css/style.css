@@ -261,7 +261,24 @@ header.header .logo img {
 
 }
 
+@media(max-width:360.8px) {
+    .mainsection__bottsect-right a::after {
+        width: 40px;
+    }
 
+    .mainsection__bottsect,
+    header.header {
+        padding: 0 15px;
+    }
+
+    .mainsection__bottsect-right a::after {
+        margin-left: 5px;
+    }
+
+    .mainsection__bottsect-right a {
+        padding: 15px;
+    }
+}
 
 
 
